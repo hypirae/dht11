@@ -1,0 +1,18 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="dht11",  # Must be unique
+    name="DHT11",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="dht11_app",
+    requires=["gui", "gpio"],
+    stack_size=2 * 1024,
+    fap_category="WSSC",
+    # Optional values
+    fap_version="1.0.0",
+    fap_icon="dht11.png",  # 10x10 1-bit PNG
+    fap_description="Professional DHT11 temperature & humidity sensor with Heat Index calculation",
+    fap_author="Hypirae",
+    fap_weburl="https://github.com/Hypirae/dht11",
+    fap_icon_assets="images",  # Image assets to compile for this application
+)
