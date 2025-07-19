@@ -23,6 +23,9 @@
 #include "sensor.h"
 #include "scenes.h"
 
+// Include the compiled app icons
+#include "dht11_icons.h"
+
 /**
  * @brief Navigation event callback
  * 
